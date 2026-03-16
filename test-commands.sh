@@ -1,7 +1,7 @@
 #!/bin/bash
 # Week 8 In-Class Exploration - Starter Test Commands
 
-BASE_URL="http://localhost:5000"
+BASE_URL="http://localhost:8001"
 
 echo "=== Notification Service (Synchronous) Test ==="
 echo ""

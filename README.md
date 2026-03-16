@@ -131,12 +131,12 @@ worker:
 
 ```bash
 # Should be instant!
-time curl -X POST http://localhost:5000/notifications \
+time curl -X POST http://localhost:8001/notifications \
   -H "Content-Type: application/json" \
   -d '{"email": "test@example.com", "message": "Hello!"}'
 
 # Check job status
-curl http://localhost:5000/jobs/YOUR_JOB_ID
+curl http://localhost:8001/jobs/YOUR_JOB_ID
 ```
 
 ## Success Criteria
